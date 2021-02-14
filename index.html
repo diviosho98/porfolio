@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Divi osho</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li><!---
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>-->
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Divi osho</span><br>Software developer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/divi-osho-054006148/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/diviosho98" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img">    
+                    <img src="divi.jpg" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="divi.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Divi osho</h2>
+                        <p class="about__text">A 4th semester IT student from kalinga Institute of Industrial Technology (KIIT), Bhubaneswar. I belongs from Patna, Bihar. As i am doing an IT engineering, so coding, developing website and solving problems based on programming languages is my work and also i am passionate about this.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">These are the skills which i have learned till now, and also i am learning many more skills like java and React.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-html5 skills__icon'></i>
+                                <span class="skills__name">HTML5</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-css3 skills__icon'></i>
+                                <span class="skills__name">CSS3</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">55%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxl-javascript skills__icon' ></i>
+                                <span class="skills__name">javascript</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">45%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgba(37,81,226);transform:;-ms-filter:"><path d="M6.078,12c0-3.266,2.656-5.922,5.922-5.922c2.107,0,4.072,1.134,5.129,2.959L15.63,9.904l5.027-2.902 c-0.14-0.242-0.332-0.453-0.543-0.575l-7.345-4.24c-0.424-0.245-1.116-0.245-1.539,0l-7.345,4.24 C3.463,6.671,3.117,7.271,3.117,7.76v8.48c0,0.245,0.086,0.517,0.226,0.758l3.529-2.038C6.367,14.089,6.078,13.078,6.078,12z"></path><path d="M14.564,10.519c-0.528-0.913-1.511-1.48-2.564-1.48c-1.633,0-2.961,1.328-2.961,2.961c0,0.539,0.146,1.044,0.397,1.48 L12,12L14.564,10.519z"></path><path d="M20.657,7.002l-5.046,2.913l-1.046,0.605c0,0,0,0-0.001-0.001L12,12l-2.563,1.48c0.513,0.884,1.47,1.481,2.563,1.481 c1.054,0,2.037-0.567,2.565-1.481l2.563,1.483c-1.057,1.825-3.021,2.959-5.129,2.959c-2.188,0-4.103-1.193-5.128-2.962 l-3.529,2.038c0.14,0.242,0.332,0.453,0.543,0.575l7.345,4.24c0.423,0.245,1.115,0.245,1.539,0l7.345-4.24 c0.211-0.122,0.403-0.333,0.543-0.575c0.14-0.241,0.226-0.513,0.226-0.758V7.76C20.883,7.515,20.797,7.243,20.657,7.002z M17.922,12.329h-0.658v0.658h-0.657v-0.658h-0.658v-0.658h0.658v-0.658h0.657v0.658h0.658V12.329z M20.39,12.329h-0.658v0.658 h-0.658v-0.658h-0.657v-0.658h0.657v-0.658h0.658v0.658h0.658V12.329z"></path></svg>
+                                <span class="skills__name">&emsp;C++</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill:rgb(37, 81, 226);transform:;-ms-filter:"><path d="M9.585,11.692c2.596,0,4.328,0,4.328,0s2.432,0.039,2.432-2.35c0-2.39,0-3.951,0-3.951S16.714,3,11.936,3 C7.362,3,7.647,4.983,7.647,4.983l0.006,2.055h4.363v0.617H5.92c0,0-2.927-0.332-2.927,4.282c0,4.614,2.555,4.45,2.555,4.45h1.524 v-2.141C7.072,14.246,6.989,11.692,9.585,11.692z M9.529,5.952c-0.435,0-0.785-0.351-0.785-0.785s0.351-0.785,0.785-0.785 c0.434,0,0.785,0.351,0.785,0.785S9.963,5.952,9.529,5.952z"></path><path d="M18.452,7.532h-1.524v2.141c0,0,0.083,2.554-2.513,2.554s-4.328,0-4.328,0s-2.432-0.04-2.432,2.35c0,2.389,0,3.951,0,3.951 s-0.369,2.391,4.409,2.391c4.573,0,4.288-1.983,4.288-1.983l-0.006-2.054h-4.363v-0.617h6.097c0,0,2.927,0.332,2.927-4.282 C21.007,7.369,18.452,7.532,18.452,7.532z M14.471,17.968c0.435,0,0.785,0.351,0.785,0.785c0,0.435-0.351,0.785-0.785,0.785 c-0.434,0-0.785-0.351-0.785-0.785C13.686,18.318,14.037,17.968,14.471,17.968z"></path></svg>
+                                <box-icon type='logo' name='python'></box-icon>
+                                <span class="skills__name">&emsp;Python</span>
+                            </div>
+                            <div class="skills__bar skills__ux"></div>
+                            <div>
+                                <span class="skills__percentage">60%</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>-->
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Divi osho</p>
+            <div class="footer__social">
+                <a href="mailto:diviosho98@gmail.com" class="footer__icon"><i class='bx bx-mail-send' ></i></a>
+                <a href="https://www.instagram.com/diviosho98/" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://twitter.com/diviosho98" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p>&#169; 2020 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="javascript.js"></script>
+    </body>
+</html>
